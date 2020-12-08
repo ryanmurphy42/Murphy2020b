@@ -23,9 +23,9 @@ if plot_ctm_over_dis==1 %if discrete and continuum
     ylabel('L(t)')
     
     %save the figure
-    print(gcf,'-depsc2',[filepath_save_figs '\' 'Intposition_dis_ctm' '.eps'])
-    saveas(gcf,[filepath_save_figs '\' 'Intposition_dis_ctm' '.fig'])
-    saveas(gcf,[filepath_save_figs '\' 'Intposition_dis_ctm' '.jpg'])
+    print(gcf,'-depsc2',[filepath_save_figs '\' 'Evolution_L_dis_ctm' '.eps'])
+    saveas(gcf,[filepath_save_figs '\' 'Evolution_L_dis_ctm' '.fig'])
+    saveas(gcf,[filepath_save_figs '\' 'Evolution_L_dis_ctm' '.jpg'])
     
 else
     %plot the continuum
@@ -37,9 +37,9 @@ else
     ylabel('L(t)')
     
     %save the figure
-    print(gcf,'-depsc2',[filepath_save_figs '\' 'Intposition_ctm' '.eps'])
-    saveas(gcf,[filepath_save_figs '\' 'Intposition_ctm' '.fig'])
-    saveas(gcf,[filepath_save_figs '\' 'Intposition_ctm' '.jpg'])
+    print(gcf,'-depsc2',[filepath_save_figs '\' 'Evolution_L_ctm' '.eps'])
+    saveas(gcf,[filepath_save_figs '\' 'Evolution_L_ctm' '.fig'])
+    saveas(gcf,[filepath_save_figs '\' 'Evolution_L_ctm' '.jpg'])
     
 end
 
