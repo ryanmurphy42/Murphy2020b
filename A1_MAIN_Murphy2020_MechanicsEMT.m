@@ -8,8 +8,7 @@
 
 % Please run individual sections separately due to the time required to generate results.
 
-% Discrete realisations in code set to 50 for speed 
-% (manuscript uses 2000 discrete realisations and the corresponding .mat files are available on GitHub)
+% Discrete realisations in code set to 50 for speed (manuscript uses 2000 discrete realisations)
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
